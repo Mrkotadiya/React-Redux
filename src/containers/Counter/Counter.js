@@ -8,7 +8,7 @@ import * as actionTypes from '../../store/actions';
 class Counter extends Component {
     state = {
         counter: 0,
-
+        
     }
 
     counterChangedHandler = ( action, value ) => {
